@@ -1,0 +1,60 @@
+.shoe-images-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main-image-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.main-image {
+    width: 470px; /* Adjust width as needed */
+    height: 460px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 20px;
+}
+  
+  .thumbnail-container {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Adjust width as needed */
+    gap: 35px;
+    position: relative;
+  }
+
+  
+  
+  .thumbnail {
+    width: 90%; /* Adjust width as needed */
+    height: 70px; /* Adjust height as needed */
+    object-fit: cover;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  
+  .thumbnail.selected {
+    box-sizing: border-box;  /* Ensures border is included in width calculations */
+    border: 2px solid hsl(26, 100%, 55%); 
+    opacity: 0.7;
+  }
+
+@media (max-width: 1550px){
+    .thumbnail-container{margin-top: 20px;}
+}

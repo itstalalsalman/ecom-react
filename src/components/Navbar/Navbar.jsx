@@ -19,7 +19,7 @@ const Navbar = () => {
             <img src={cart} alt="" />
             <img src={avatar} alt="" className='img-avatar'/>
         </div>
-
+        
     </div>
   )
 }
