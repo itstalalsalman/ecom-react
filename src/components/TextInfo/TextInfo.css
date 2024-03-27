@@ -1,3 +1,128 @@
 .text-info-container{
     width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.inside-cont{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sneak-header{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+    margin-bottom: 15px;
+}
+
+.offer-header{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sneak-info{
+    font-size: 16px;
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 20px;
+}
+
+.price-cont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.disc-price{
+    font-size: 25px;
+}
+
+.disc-perc{
+    width: 40px;
+    text-align: center;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.og-price{
+    font-size: 16px;
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
+    margin-bottom: 30px;
+}
+
+.selection{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 5%;
+}
+
+
+.quantity-btns{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.minus{
+    width: 25%;
+    height: 100%;
+    background-color: hsl(223, 64%, 98%);
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.quantity{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: hsl(223, 64%, 98%);
+
+}
+
+.plus{
+    width: 25%;
+    height: 100%;
+    background-color: hsl(223, 64%, 98%);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.btn-cart{
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.cart-img{
+    background: none;
+    width: 18px;
+}
+
